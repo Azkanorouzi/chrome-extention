@@ -1,0 +1,35 @@
+*{
+ margin: 0;
+ padding: 15px;
+ box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+}
+input{
+ width: 100%;
+ display: block;
+ border:1px solid #5f9341;
+ padding: 20px;
+}
+button{
+ width: 20vw;
+ margin-top: 7px;
+ color: white;
+ background:#5f9341 ;
+ border: none;
+ font-size: 1.5rem;
+ font-weight: bold;
+ cursor: pointer;
+}
+input:focus{
+ outline: none;
+ background-color: rgba(0, 0, 255, 0.24);
+}
+.box{
+ width: 80vw;
+ height: 30vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: aquamarine;
+ cursor: pointer;
+}
