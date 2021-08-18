@@ -4,6 +4,9 @@
  box-sizing: border-box;
  font-family: Arial, Helvetica, sans-serif;
 }
+body{
+ min-width: 400px;
+}
 input{
  width: 100%;
  display: block;
@@ -11,7 +14,7 @@ input{
  padding: 20px;
 }
 button{
- width: 20vw;
+ width: 170px;
  margin-top: 7px;
  color: white;
  background:#5f9341 ;
@@ -32,4 +35,18 @@ input:focus{
  align-items: center;
  background-color: aquamarine;
  cursor: pointer;
+}
+ul {
+ list-style: none;
+ padding-left: 0 !important;
+ margin-left: 0;
+}
+li{
+ padding: 0;
+ margin-top: 10px;
+}
+li a{
+ color: green;
+ padding: 0;
+ font-weight: bolder;
 }
