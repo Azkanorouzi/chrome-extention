@@ -14,14 +14,15 @@ input{
  padding: 20px;
 }
 button{
- width: 170px;
+ width: 30vw;
  margin-top: 7px;
  color: white;
  background:#5f9341 ;
  border: none;
- font-size: 1.5rem;
+ font-size: 1rem;
  font-weight: bold;
  cursor: pointer;
+  border: 1px solid green;
 }
 input:focus{
  outline: none;
@@ -49,4 +50,10 @@ li a{
  color: green;
  padding: 0;
  font-weight: bolder;
+}
+.delete-btn{
+ background: transparent;
+ color: green;
+ cursor: pointer;
+ font-size: .8rem;
 }
